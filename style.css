@@ -294,7 +294,7 @@ iframe{
 
 .second_section{
     display: flex;
-    height: 40em;
+    height: 55rem;
 }
 
 .second_section > div{
@@ -302,6 +302,7 @@ iframe{
     color: black;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .s2_div1{
