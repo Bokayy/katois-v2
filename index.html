@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fb801bc08c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <i class="fab fa-500px"></i>
+        <nav>
+            <div>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first_section">
+            <section id="sekcija1">
+                <div class="red1 stupac1">&nbsp;</div>
+                <div class="red1 stupac3">&nbsp;</div>
+                <div class="red1 stupac5">&nbsp;</div>
+                <div class="red1 stupac7">&nbsp;</div>
+                <div class="red1 stupac9">&nbsp;</div>
+                <div class="red1 stupac11">&nbsp;</div>
+                <div class="red2 stupac2">&nbsp;</div>
+                <div class="red2 stupac4">&nbsp;</div>
+                <div class="red2 stupac6">&nbsp;</div>
+                <div class="red2 stupac8">&nbsp;</div>
+                <div class="red2 stupac10">&nbsp;</div>
+                <div class="red3 stupac1">&nbsp;</div>
+                <div class="red3 stupac3">&nbsp;</div>
+                <div class="red3 stupac5">&nbsp;</div>
+                <div class="red3 stupac7">&nbsp;</div>
+                <div class="red3 stupac9">&nbsp;</div>
+                <div class="red3 stupac11">&nbsp;</div>
+                <div class="red4 stupac2">&nbsp;</div>
+                <div class="red4 stupac4">&nbsp;</div>
+                <div class="red4 stupac6">&nbsp;</div>
+                <div class="red4 stupac8">&nbsp;</div>
+                <div class="red4 stupac10">&nbsp;</div>
+                <div class="red5 stupac1">&nbsp;</div>
+                <div class="red5 stupac3">&nbsp;</div>
+                <div class="red5 stupac5">&nbsp;</div>
+                <div class="red5 stupac7">&nbsp;</div>
+                <div class="red5 stupac9">&nbsp;</div>
+            </section>
+            <p>Our Products</p>
+        </section>
+
+        <section class = "second_section">
+            <div class="s2_div1">
+                <iframe name="moj_iframe" id="moj_iframe" src="images/download (1).jpg" frameborder="0" seamless></iframe>
+            </div>
+
+            <div class="gallery">
+                <figure class=”gallery__item gallery__item--1">
+                    <a onclick ="changeStuff()" href="images/download (1).jpg" target="moj_iframe"><img src="images/download (1).jpg" class="gallery__img" alt="Image 1"></a>
+                  </figure>
+                  <figure class="gallery__item gallery__item--2">
+                    <a onclick ="changeStuff()" href="images/download (2).jpg" target="moj_iframe"><img src="images/download (2).jpg" class="gallery__img" alt="Image 2"></a>
+                  </figure>
+                  <figure class="gallery__item gallery__item--3">
+                    <a onclick ="changeStuff()" href="images/download (3).jpg" target="moj_iframe"><img src="images/download (3).jpg" class="gallery__img" alt="Image 3"></a>
+                  </figure>
+                  <figure class="gallery__item gallery__item--4">
+                    <a onclick ="changeStuff()" href="images/download (4).jpg" target="moj_iframe"><img src="images/download (4).jpg" class="gallery__img" alt="Image 4"></a>
+                  </figure>
+                  <figure class="gallery__item gallery__item--5">
+                    <a onclick ="changeStuff() "href="images/download (5).jpg" target="moj_iframe"><img src="images/download (5).jpg" class="gallery__img" alt="Image 5"></a>
+                  </figure>
+                  <figure class="gallery__item gallery__item--6">
+                    <a  onclick ="changeStuff()" href="images/download (6).jpg" target="moj_iframe"><img src="images/download (6).jpg" class="gallery__img" alt="Image 6"></a>
+                  </figure>
+            </div>
+
+<!--             <script>
+                const moj_iframe = document.getElementById("moj_iframe");
+    
+                function changeStuff() {
+                    const iframeWindow = moj_iframe.contentWindow;
+                    const iframeDocument = moj_iframe.contentDocument;
+                    const iframeImage = iframeDocument.querySelector("img");
+                    /* const theimage = iframeDocument.getElementsByTagName("img")[0].getAttribute("style"); */
+                    
+                    iframeImage.style["height"] = "100%"
+                }
+            </script> -->
+
+        </section>
+
+        <section class="third_section">
+            <div class="s3_div1">
+                <div class="subdiv2">
+                    <p class="section3_bigtext" style="color: blanchedalmond;">
+                        Sample Text
+                    </p>
+                    <hr class="hr1">
+                    <p class="section3_smalltext" style="color: blanchedalmond;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="myButton3">BOOK YOUR SEAT</a>
+                </div>
+                
+            </div>
+            <img class="s3_img" src="images\section3.jpg" alt="">
+        </section>
+
+        <section class="fourth_section">
+            <img class="s3_img" src="images\section3.jpg" alt="">
+            <div  class="s4_div1">
+                <div class="kockakojasekrece">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h1 class="rainbow-text">Katja Kleković 2022<h1>
+        </footer>
+    </main>
+</body>
+</html>
